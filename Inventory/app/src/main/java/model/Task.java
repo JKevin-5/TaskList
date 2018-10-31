@@ -19,6 +19,9 @@ public class Task {
         this.title=title;
         this.time=time;
     }
+    public  Task(String title){
+        this.title=title;
+    }
     public Task(String title,String time){
         this.title=title;
         this.time=time;

@@ -6,6 +6,7 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.MenuItem;
 import android.widget.TextView;
 
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         listFragment.add(new Fragment2());
         MyFragAdapter myAdapter = new MyFragAdapter(getSupportFragmentManager(),this,listFragment);
         viewPager.setAdapter(myAdapter);
-
+        Log.v("Tag","2");
         //导航栏点击时间和viewpager滑动事件，让两个空间互相关联
         navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
