@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    >
+
+    <TextView
+        android:id="@+id/clock_time"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textColor="#FFFFFF"
+        android:text="25:00"
+        android:gravity="center"
+        android:textSize="75dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="晚上好，准备好开始专注了吗？"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    <Button
+        android:id="@+id/clock_bt"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="50dp"
+        android:text="开始专注"
+        android:textColor="#FFFFFF"
+        android:background="#4f54f5"
+        />
+</LinearLayout>
